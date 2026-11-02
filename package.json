@@ -1,6 +1,6 @@
 {
   "name": "display-buffered-pdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Accessible navigation for buffered PDF canvas previews in React and Next.js",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
