@@ -89,10 +89,6 @@ npm pack --dry-run
 
 Tests use Vitest, React Testing Library, and jest-axe with a mocked PDF.js document and canvas context; a real-browser integration test with an actual PDF is still required before publishing.
 
-## Migration notes from 1.0.3
-
-This modernization removes bundled Tailwind/Radix UI and duplicated controls, changes the worker strategy to modern `.mjs` PDF.js workers, and permits browser byte arrays in addition to Node `Buffer`. Default styling changes and PDF.js upgrades may be breaking; test existing consumers before publishing. **A major version is generally more appropriate than a patch when these changes break compatibility.**
-
 ## Repository / issues
 
 https://github.com/huachenlihx/display-buffered-pdf
