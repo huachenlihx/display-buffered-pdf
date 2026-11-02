@@ -1,0 +1,68 @@
+{
+  "name": "display-buffered-pdf",
+  "version": "1.0.3",
+  "description": "Accessible navigation for buffered PDF canvas previews in React and Next.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "build": "tsup",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "keywords": [
+    "pdfjs",
+    "pdf",
+    "react",
+    "nextjs",
+    "typescript",
+    "canvas",
+    "accessibility"
+  ],
+  "author": "Hua Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huachenlihx/display-buffered-pdf.git"
+  },
+  "homepage": "https://github.com/huachenlihx/display-buffered-pdf#readme",
+  "bugs": {
+    "url": "https://github.com/huachenlihx/display-buffered-pdf/issues"
+  },
+  "peerDependencies": {
+    "pdfjs-dist": "^6.4.299",
+    "react": "^18.3.1 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest-axe": "^3.5.9",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "jest-axe": "^10.0.0",
+    "jsdom": "^26.1.0",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

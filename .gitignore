@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.next/
+.DS_Store
+*.log
+test-results*.txt
+RELEASE_GUIDE.md
