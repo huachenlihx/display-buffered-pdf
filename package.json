@@ -32,7 +32,9 @@
     "nextjs",
     "typescript",
     "canvas",
-    "accessibility"
+    "accessibility",
+    "a11y",
+    "huachenlihx"
   ],
   "author": "Hua Chen",
   "license": "MIT",
